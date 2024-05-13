@@ -1,6 +1,6 @@
 ﻿namespace Gimnasios24.Model.Domain
 {
-    public class GymMachine
+    public class Machine
     {
         private int _id;
         private int _localId;
@@ -10,7 +10,7 @@
         private string _type;
         private bool _available;
 
-        public GymMachine(int id, int localId, DateTime purchaseDate, decimal purchasePrice, int lifespan, string type, bool available)
+        public Machine(int id, int localId, DateTime purchaseDate, decimal purchasePrice, int lifespan, string type, bool available)
         {
             _id = id;
             _localId = localId;
